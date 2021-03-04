@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    font-size: 10px;
+    background-color: #808080;
+}
+
+header{
+    border-bottom: solid;
+    border-bottom-color: #fff;
+    height: 100px;
+    margin-top:85px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+form{
+    color: #fff;
+}
