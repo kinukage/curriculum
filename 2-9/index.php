@@ -1,19 +1,19 @@
 <?php
+declare(strict_types=1);
 
 for($i = 1; $i <= 100; $i++){
-    if($i % 15 == 0){
-        print"FizzBuzz!!";
+    if(($i % 3 == 0) && ($i % 5 == 0)){
+        echo "FizzBuzz!!";
     }else if($i % 3 == 0){
-        print"Fizz!";
+        echo "Fizz!";
     }else if($i % 5 == 0){
-        print"Buzz!";
+        echo "Buzz!";
     }else{
-        print $i;
+        echo  $i;
     }
-    print " ";
     echo'<br>';
 }
-
+echo '<br>';
 echo "1. パフォーマンス"."<br>";
 echo "コンピュータなどの機器やソフトウェア、システムなどの処理性能や実行速度、通信回線・ネットワークなどの伝送速度・容量などのこと"."<br>";
 echo "2. スロークエリ"."<br>";
