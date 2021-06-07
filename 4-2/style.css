@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 共通部分 */
+body{
+    min-height: 100%;
+    width: 500px;
+    margin: 0 auto;
+}
+.contenter{
+    margin: 0 auto;
+    width: 500px;
+}
+.text-1{
+    width: 400px;
+    padding: 5px 0;
+    margin: 5px auto;
+}
+.button{
+    color: #fff;
+    background-color: #0a8af2;
+    border: #0a8af2;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+/*新規ユーザーボタン*/
+.signUp{
+    color: #fff;
+    background-color: #66bab0;
+    border: #66bab0;
+    border-radius: 5px;
+    padding: 4px 0;
+    width: 120px;
+    float: right;
+    margin-right: 100px;
+   
+}
+/* 在庫登録 */
+.text-2{
+    width: 200px;
+}
+.delete{
+    background-color: #fc4747;
+    border: #fc4747;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*メイン画面*/
+.content{
+    width: 500px;
+    margin: 0 auto;
+    
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center;
+}
+td{
+    height: 50px;
+    border: 1px #979aa6 solid;
+}
+.tr{
+    background-color: #dedede;
+    border: 1px #dedede solid;
+    
+}
+.logout{
+    background-color: #979aa6;
+    color: #fff;
+    border: #979aa6;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.novelty{
+    background-color: #0a8af2;
+    border: #0a8af2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
